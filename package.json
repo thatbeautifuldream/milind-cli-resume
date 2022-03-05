@@ -1,7 +1,11 @@
 {
   "name": "milind-cli-resume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI Based Resume using NodeJs",
+  "bin" : {
+    "milind-cli-resume": "index.js"
+  },
+  }
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +14,25 @@
     "type": "git",
     "url": "git+https://github.com/thatbeautifuldream/milind-cli-resume.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
+  "keywords": [
+    "cli-resume",
+    "cli",
+    "resume",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "thatbeautifuldream/milind",
+  "author": {
+    "name": "Milind Mishra",
+    "email": "milind.mishra4@gmail.com",
+    "url": "https://twitter.com/dryruncatch",
+    "bugs": {
     "url": "https://github.com/thatbeautifuldream/milind-cli-resume/issues"
+    },
   },
-  "homepage": "https://github.com/thatbeautifuldream/milind-cli-resume#readme"
+  "homepage": "https://github.com/thatbeautifuldream/milind-cli-resume#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

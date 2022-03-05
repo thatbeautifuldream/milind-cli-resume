@@ -1,5 +1,6 @@
+#!/usr/bin/env node
+
 const inquirer = require("inquirer");
-const cp = require("child_process");
 
 function displayList() {
   inquirer
