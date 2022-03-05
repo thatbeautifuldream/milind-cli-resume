@@ -1,6 +1,6 @@
 {
   "name": "milind-cli-resume",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI Based Resume using NodeJs",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/thatbeautifuldream/milind-cli-resume.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "resume",
+    "nodejs"
+  ],
+  "author": "Milind Mishra",
   "license": "ISC",
   "bin": {
     "milind-cli-resume": "index.js"
