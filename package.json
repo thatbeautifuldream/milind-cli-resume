@@ -1,6 +1,6 @@
 {
   "name": "milind-cli-resume",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI Based Resume using NodeJs",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bin": {
+    "milind-cli-resume": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/thatbeautifuldream/milind-cli-resume/issues"
   },
